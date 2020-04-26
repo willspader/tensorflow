@@ -13,8 +13,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = (10, 6)
 
 def linearRegression():
-    X = np.arange(0.0, 5.0, 0.1) # independent variable
-    ##You can adjust the slope and intercept to verify the changes in the graph
+    X = np.arange(0.0, 5.0, 0.1)
     a = 1
     b = 0
 
